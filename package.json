@@ -1,0 +1,24 @@
+{
+	"name": "node-with-ts",
+	"version": "1.0.0",
+	"description": "",
+	"main": "dist/app.js",
+	"scripts": {
+		"start": "tsc && node dist/app.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/express": "^4.17.11",
+		"tslint": "^5.20.1",
+		"typescript": "^3.9.9"
+	},
+	"dependencies": {
+		"-": "0.0.1",
+		"D": "^1.0.0",
+		"axios": "^0.21.1",
+		"express": "^4.17.1",
+		"promise-retry": "^2.0.1"
+	}
+}
