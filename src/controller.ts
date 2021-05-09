@@ -58,7 +58,6 @@ export class Controller {
 	}
 
 	public updateRemoteApi = (): Promise<void> => {
-		console.log('here baby')
 		return promiseRetry(
 			{
 				retries: 3
